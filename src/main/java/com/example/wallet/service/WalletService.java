@@ -16,8 +16,8 @@ public class WalletService {
 
     private final WalletRepository walletRepository;
 
-    public WalletService(WalletRepository customWalletRepository) {
-        this.walletRepository = customWalletRepository;
+    public WalletService(WalletRepository walletRepository) {
+        this.walletRepository = walletRepository;
     }
 
     public Wallet getWalletById(UUID id) {

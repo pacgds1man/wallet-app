@@ -1,7 +1,7 @@
 # Wallet App
 
 [![Java](https://img.shields.io/badge/Java-17-blue)](https://www.oracle.com/java/technologies/downloads/#java17)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.3-brightgreen)](https://spring.io/projects/spring-boot)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.1.0-brightgreen)](https://spring.io/projects/spring-boot)
 [![Gradle](https://img.shields.io/badge/Gradle-orange)](https://gradle.org/releases/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-darkblue)](https://www.postgresql.org/)
 [![Swagger](https://img.shields.io/badge/Swagger-green)](https://your-swagger-url.com/)
