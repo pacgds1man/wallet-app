@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create/create-tables.yml
+  - changeSet:
+      id: created_tables
+      author: pacgds1man
+      changes:
+        - tagDatabase:
+            tag: created_tables

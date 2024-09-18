@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-tables
+      author: pacgds1man
+      changes:
+        - sqlFile:
+            path: db/changelog/changeset/create/create-tables.sql

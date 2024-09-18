@@ -1,0 +1,21 @@
+# docker-compose.yml
+version: '3.5'
+
+services:
+  wallet-app:
+    image: 'wallet-app:latest'
+    depends_on:
+      - postgresql
+    hostname: wallet-app
+    build: ./
+    container_name: wallet-app
+    ports:
+      - "8080:8080"
+
+  postgresql:
+    image: 'postgres:15.2'
+    container_name: "postgresql"
+    environment:
+      - POSTGRES_PASSWORD=root
+    ports:
+      - "5432:5432"
